@@ -1,0 +1,9 @@
+<manifest>
+	<remote name="github"
+		fetch=".."
+		revision="master"
+	/>
+	<project name="test-a"
+		remote="github"
+	/>
+</manifest>
