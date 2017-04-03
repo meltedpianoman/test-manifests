@@ -1,9 +1,15 @@
 <manifest>
 	<remote name="github"
-		fetch=".."
+		fetch="ssh://git@github.com/"
 		revision="master"
+		review="http://erazer:8080/"
 	/>
-	<project name="test-a"
+	<project name="meltedpianoman/test-a"
+		path="test-a"
+		remote="github"
+	/>
+	<project name="meltedpianoman/test-b"
+		path="test-b"
 		remote="github"
 	/>
 </manifest>
